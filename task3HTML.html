@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task3</title>
+    <style>
+        .container{
+            border:1px solid black;
+            padding: 20px;
+            width: 80%;
+            margin: 0 auto;
+            background-color: aliceblue;
+        }
+        a{
+            display:inline-block;
+            padding:1px;                    
+        }
+        .link-separator::after{
+            content:"|";
+            margin:10px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Clicks Any One of The Following links</h1>
+    <a href="https://learn.codemithra.com/course/view.php?id=408"target="_blank">Opens in New</a>
+    <span class="link-separator"></span>
+    <a href="https://learn.codemithra.com/course/view.php?id=408">Opens in Self</a>
+    <span class="link-separator"></span>
+    <a href="https://learn.codemithra.com/course/view.php?id=408"target="_parent">Opens in Parent</a>
+    <span class="link-separator"></span>
+    <a href="https://learn.codemithra.com/course/view.php?id=408"target="_top">Opens in Body</a>
+    <span class="link-separator"></span>
+    <a href="mailto:parthsingh0703@gmail.com">Send e-mail</a>
+    </div>
+</body>
+</html>
